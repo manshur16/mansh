@@ -5,7 +5,7 @@ function initengahan(){
     wallpaper.style="transform: scale(1.5);";
   }
   
-  async function mulainama() {
+  async function pertama() {
     //window.location.replace("https://www.feeldream.my.id/2023/01/script-html-bucin.html");
     bodyblur.style="opacity:.7";
     wallpaper.style="transform: scale(1);";
