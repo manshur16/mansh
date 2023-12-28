@@ -5,7 +5,7 @@ function initengahan(){
     wallpaper.style="transform: scale(1.5);";
   }
   
-  async function inipesan() {
+  async function mulainama() {
     //window.location.replace("https://www.feeldream.my.id/2023/01/script-html-bucin.html");
     bodyblur.style="opacity:.7";
     wallpaper.style="transform: scale(1);";
@@ -149,7 +149,7 @@ function initengahan(){
   document.getElementById("lv4").onclick = function() {lv4.style="opacity:0";slov+=1;this.onclick=null;checkslov();}
   var slov=0;function checkslov() {if(slov==4){kolombaru.style="position:relative;transform:scale(1)";otomatis();setTimeout(aktipesan2,400);}}
   
-  async function pertanyaan(){var { isConfirmed: prtanya } = await swals.fire({title: nama + 'n ' + tanya, text: '' + opstanya, imageUrl: '' + fotostiker6.src, showCancelButton: true, confirmButtonText: '' + tompositif, cancelButtonText: '' + tomnegatif,});
+  async function pertanyaan(){var { isConfirmed: prtanya } = await swals.fire({text: '' + opstanya, imageUrl: '' + fotostiker6.src, showCancelButton: true, confirmButtonText: '' + tompositif, cancelButtonText: '' + tomnegatif,});
     if(prtanya){
   await swalst.fire({title: '' + katatambahan.innerHTML, timer: 2000, imageUrl: '' + stikerditolak.src,});
       vketik8=vketik81;aktipesan8();
